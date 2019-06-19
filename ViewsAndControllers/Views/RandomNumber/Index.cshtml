@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@model int
+<div>
+    <form action="GenerateRandomNumber" method="post">
+        <p>
+            Enter the numbers:
+            <input name="inputNumber" type="number" />
+            <input name="inputNumber2" type="number" />
+        </p>
+        <input name="submit" type="submit" />
+    </form>
+    <p>
+        Random Number: @Model
+    </p>
+</div>

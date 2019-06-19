@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@model double
+    <div>
+        <form action="SaySquare" method="post">
+            <p>
+                Enter the number to square root:
+                <input name="inputNumber" type="number" step="0.00000001" />
+            </p>
+            <input name="submit" type="submit" />
+        </form>
+        <p>
+            The square of the input is: @Model
+        </p>
+    </div>

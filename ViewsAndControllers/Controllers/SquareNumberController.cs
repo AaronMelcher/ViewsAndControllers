@@ -11,7 +11,13 @@ namespace ViewsAndControllers.Controllers
         // GET: SquareNumber
         public ActionResult Index()
         {
-            return View();
+            return View(viewName: "Index", model: 0.0);
+        }
+
+        [HttpPost]
+        public ActionResult SaySquare(double inputNumber)
+        {
+            return View(viewName: "Index", model: Math.Sqrt(inputNumber));
         }
     }
 }
