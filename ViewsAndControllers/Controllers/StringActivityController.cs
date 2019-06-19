@@ -17,7 +17,7 @@ namespace ViewsAndControllers.Controllers
         [HttpPost]
         public ActionResult SayHello(string inputString)
         {
-            return View(viewName: "Index", model: "Hello" + inputString);
+            return View(viewName: "Index", model: "Length of string: " + inputString.Length);
         }
     }
 }
