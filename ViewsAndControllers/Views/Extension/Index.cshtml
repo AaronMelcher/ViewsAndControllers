@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div>
+    <form action="NameLength" method="post">
+        <p>
+            Enter your name:
+            <input name="inputString" />
+        </p>
+        <input name="submit" type="submit" />
+    </form>
+    <p>
+        @Model
+    </p>
+</div>
+
+<div>
+    <form action="FirstAndLast">
+        <p>
+            Enter your first name:
+            <input name="first" />
+            <br />
+            Enter your last name:
+            <input name="last" />
+        </p>
+        <input name="submit" type="submit" />
+    </form>
+    <p>
+        @Model
+    </p>
+</div>
+
+<div>
+    <form aciton="DifferenceAgeAndLength">
+        <p>
+            Enter your last name:
+            <input name="last" />
+            Enter your age:
+            <input name="age" typer="number" />
+        </p>
+        <input name="submit" type="submit" />
+    </form>
+    <p>
+        @Model
+    </p>
+</div>
+
+<div>
+    <form action="YourAge">
+        <p>
+            Enter your birthday (mm/dd/yy)
+            <input name="birthday" type="date" />
+        </p>
+        <input name="submit" type="submit" />
+    </form>
+    <p>
+        @Model
+    </p>
+</div>

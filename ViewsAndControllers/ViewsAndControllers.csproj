@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DefaultDateController.cs" />
+    <Compile Include="Controllers\ExtensionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RandomNumberController.cs" />
     <Compile Include="Controllers\SquareNumberController.cs" />
@@ -170,6 +171,7 @@
     <Content Include="Views\SquareNumber\Index.cshtml" />
     <Content Include="Views\RandomNumber\Index.cshtml" />
     <Content Include="Views\DefaultDate\Index.cshtml" />
+    <Content Include="Views\Extension\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
